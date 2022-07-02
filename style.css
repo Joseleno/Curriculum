@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--background);
 }
 
 .picture-profile {
@@ -61,6 +62,7 @@ p.period {
 
 p.address {
     margin: 3px;
+    padding-bottom: 3px;
 }
 
 .progress {
@@ -77,3 +79,16 @@ p.address {
 .progress-bar {
     background-color: var(--background);
 }
+
+a:link, a:visited {
+	text-decoration: none;
+    color: var(--white);
+	}
+a:hover {
+	text-decoration: underline;
+	color: var(--gray);
+	}
+a:active {
+	text-decoration: none;
+    color: var(--white);
+	}
